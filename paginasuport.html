@@ -1,0 +1,127 @@
+<html>
+<head><title>Apple</title>
+<style>
+.overlay{
+vertical-align:top;
+top:615px;
+left:0;
+z-index:1;
+position:absolute;
+width:100%;
+heigth:auto;
+background:white
+}
+.continutoverlay{
+background:none;
+margin:8;
+}
+.butonmeniu{
+background:transparent;
+text-align:center;
+cursor:pointer;
+heigth:20px;
+width:80px;
+top:20px;
+right:20px;
+position:fixed;
+z-index:4;
+border:none;
+}
+.butonpagprinc{
+background:transparent;
+text-align:center;
+cursor:pointer;
+heigth:20px;
+width:auto;
+top:20px;
+right:110px;
+position:fixed;
+z-index:4;
+border:none;
+}
+.pozafundal{
+heigth:100%;
+width:100%;
+position:fixed;
+z-index:-1;
+top:0;
+left:0;
+}
+.titlu{
+position:absolute;
+top:40%;
+left:35%;
+font-size:100;
+}
+</style>
+</head>
+<body>
+<img src="logopaginastart.jpg" class="pozafundal">
+<a href="meniu.html">
+<button id="butondemeniu" class="butonmeniu" type="button"><font size="+2">Meniu</font></button>
+</a>
+<a href="Pagina intermediara.html">
+<button class="butonpagprinc" type="button"><font size="+2">Pagina principala</font></button>
+</a>
+<header><pre><b>     
+          .:'
+      __ :'__
+   .'`__`-'__``.
+  :__________.-'
+  :_________:
+   :_________`-;
+    `.__.-.__.'
+</b></pre>
+</header>
+<div class="titlu">
+<center><font face="Kunstler Script"><b>Suport tehnic</b></font></center>
+</div>
+<div class="overlay">
+<div class="continutoverlay">
+<br><br><br>
+<span><center><h1>Formular de reclamatii/returnari produse defecte</h1></center><br><br><br></span>
+<form method="POST" action="https://support.apple.com/">
+<font size="+2">
+Selectati categoria de produse cu probleme<br>
+<select style="height:40px;font-size:20;" name="categorieprodus">
+<option value="Alege" selected>Alegeti</option>
+<option value="IPhone">IPhone</option>
+<option value="IPad">IPad</option>
+<option value="Mac">Mac</option>
+<option value="Apple watch">Apple watch</option>
+</select><br>
+Daca ati selectat IPhone<br>
+Selectati modelul IPhone-ului cu probleme<br>
+<select style="height:40px;font-size:20;">
+<option value="Alege" selected>Alegeti</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="13">13</option>
+<option value="14">14</option>
+</select><br>
+Daca ati ales IPad<br>
+Selectati modelul IPad-ului cu probleme<br>
+<select style="height:40px;font-size:20;">
+<option value="Alege" selected>Alegeti</option>
+<option value="Mini 6">Mini 6</option>
+<option value="10">10</option>
+<option value="pro 6th gen">pro 6th gen</option>
+</select><br>
+Daca ati ales Apple watch<br>
+Selectati modelul Apple watch-ului cu probleme<br>
+<select style="height:40px;font-size:20;">
+<option value="Alege" selected>Alegeti</option>
+<option value="Ultra">Ultra</option>
+<option value="Series 8">Series 8</option>
+</select><br>
+Pentru reclamatii sau explicatii suplimentare folositi spatiul de mai jos<br>
+<textarea style="resize:none;" name="reclamatii" rows="20" cols="100">Orice reclamatie suplimentara se scrie aici</textarea>
+<br>
+<input style="font-size:20;" type="submit" value="Trimite">
+</font>
+</form>
+</div>
+</div>
+</body>
+</html>
